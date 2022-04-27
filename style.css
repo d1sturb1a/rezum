@@ -1,0 +1,323 @@
+*,
+*::before *::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* img {
+    vertical-align: top;
+} */
+
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 19px;
+
+}
+
+.container {
+    max-width: 1200px;
+    max-height: 1350px;
+    margin: 0px auto;
+    font-family: Montserrat;
+
+    box-sizing: border-box;
+    display: flex;
+    padding: 0px;
+
+
+
+}
+
+.info {
+    width: 370px;
+    height: 1350px;
+    background-color: #1E2939;
+    box-sizing: border-box;
+    padding-right: 85px;
+    color: white;
+
+}
+
+.photo {
+    width: 370px;
+    height: 360px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.contacts h1 {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.contacts {
+    padding-left: 20px;
+}
+
+.ts h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.ts{
+padding-top: 50px;
+padding-bottom: 25px;
+padding-left:20px;
+}
+.ts li{
+    line-height: 24px;
+    padding-left:3px;
+    font-size: 14px;
+    font-weight: 200;
+    
+}
+.ss{
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left:20px;
+    }
+.ss h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.ss li{
+    line-height: 24px;
+    padding-left:3px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.right {
+
+    width: 750px;
+    height: 1350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 100px;
+    box-sizing: border-box;
+
+
+}
+
+.bio {
+    height: 230px;
+    width: 400px;
+    box-sizing: border-box;
+    margin: 100px 340px 20px 0px;
+}
+
+.projects {
+    width: 485px;
+    height: 105px;
+    box-sizing: border-box;
+    margin: 20px 260px 25px 0px;
+
+}
+
+.workExp {
+    box-sizing: border-box;
+    width: 525px;
+    height: 215px;
+    margin: 25px 220px 8px 0px;
+}
+
+.manager1 {
+    box-sizing: border-box;
+    width: 525px;
+    height: 150px;
+    margin: 8px 220px 10px 0px;
+}
+
+.manager2 {
+    box-sizing: border-box;
+    width: 525px;
+    height: 120px;
+    margin: 10px 220px 20px 0px;
+}
+
+.education {
+    box-sizing: border-box;
+    width: 335px;
+    height: 115px;
+    margin: 20px 415px 135px 0px;
+}
+
+.bio span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bio h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 20px 0px;
+    text-align: left;
+
+}
+
+.bio p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 300;
+
+}
+
+.projects ol {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0px;
+    text-align: left;
+
+}
+
+.projects ol li {
+    line-height: 24px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.workExp h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+}
+
+.workExp h2 {
+    font-size: 16px;
+    font-weight: bold;
+    
+    text-align: left;
+}
+
+.workExp span1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FB6D3A;
+}
+
+span {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.workExp li {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: top;
+    font-weight: 300px;
+    vertical-align: top;
+
+}
+
+.manager1 h1 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.manager1 h1>span {
+    text-align: left;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #FB6D3A;
+}
+
+span {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+    color: #A8A8A8;
+}
+
+.manager1 li {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: top;
+    font-weight: 300px;
+    vertical-align: top;
+    margin-top: 10px 0px;
+
+}
+
+.manager2 h1 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.manager2 h1>span {
+    text-align: left;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #FB6D3A;
+}
+
+span {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+    color: #A8A8A8;
+}
+
+.manager2 li {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: top;
+    font-weight: 300px;
+    vertical-align: top;
+    margin-top: 10px 0px;
+
+}
+
+.education h1 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.education h2 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: #FB6D3A;
+}
+
+.education span {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+    color: #A8A8A8;
+}
+
+
+.wraper {
+    min-height: 100%;
+    overflow: hidden;
+}
